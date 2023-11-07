@@ -1,0 +1,15 @@
+.not_found_container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.not_found_container h1 {
+    font-size: 4rem;
+    color:red;
+}
+
+.not_found_container p {
+    font-size: 2rem;
+}
