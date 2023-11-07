@@ -10,6 +10,9 @@
     padding: 1rem;
 }
 
+.logo_container{
+    width: 3rem;
+}
 .links_container {
     display: flex;
     gap: 2rem;
