@@ -3,7 +3,7 @@ import PropsTypes from "prop-types"
 
 export const PokeContext = createContext();
 
-const urlPoke =  "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20"
+const urlPoke =  "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=500"
 export const PokeProvider = ({children}) => {
 
     const [pokemones, setPokemones] = useState([])
